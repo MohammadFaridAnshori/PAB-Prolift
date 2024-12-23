@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "582090118023",
+    "project_id": "prolift-8318e",
+    "storage_bucket": "prolift-8318e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582090118023:android:ad748ab0bb5a57350f3922",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRiQDwo0TvZSyw7FELvgqgQcWfhbBHs3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

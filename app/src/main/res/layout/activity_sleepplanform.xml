@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sleepplant.Sleepplanform">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1A1A1A"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".MainActivity">
+
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:padding="8dp"
+            android:text=" Sleep Plans"
+            android:textColor="#FF4500"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Dietary Preferences"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <!-- Subtitle -->
+
+        <!-- Date Input -->
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="4dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+            android:textColor="#B0B0B0"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/date_input"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#FF4500"
+            android:hint="Date"
+            android:inputType="date"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FF4500" />
+
+        <!-- Sleep Time Input -->
+
+        <EditText
+            android:id="@+id/sleep_time_input"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="22dp"
+            android:backgroundTint="#FF4500"
+            android:hint="Sleep Time"
+            android:inputType="time"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FF4500" />
+
+        <!-- Wake Time Input -->
+
+        <!-- Create Button -->
+        <EditText
+            android:id="@+id/wake_time_input"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="22dp"
+            android:backgroundTint="#FF4500"
+            android:hint="Wake Time"
+            android:inputType="time"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FF4500" />
+
+        <Button
+            android:id="@+id/create_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#FF4500"
+            android:text="Create"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/history"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#FF4500"
+            android:text="History"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        app:backgroundTint="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu"
+        app:itemTextColor="#FFFFFF"
+        app:labelVisibilityMode="labeled"
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

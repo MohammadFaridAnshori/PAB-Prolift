@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/signup2">
+
+    <TextView
+        android:id="@+id/backArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="◀ Sign UP"
+        android:textColor="#FF4500"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Your Target And Data"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Is about email , domain , program target and another"
+        android:textColor="#BBBBBB"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/ageField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:textColorHint="#FF4500"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF4500"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/weightField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight"
+        android:textColorHint="#FF4500"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF4500"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/heightField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height"
+        android:textColorHint="#FF4500"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF4500"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/targetField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Target (Bulking/Cutting)"
+        android:textColorHint="#FF4500"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF4500"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/genderField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:textColorHint="#FF4500"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF4500"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:backgroundTint="#FF4500"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

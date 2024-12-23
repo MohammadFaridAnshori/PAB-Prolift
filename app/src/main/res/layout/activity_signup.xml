@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="profile.SignUpActivity"
+    android:background="@drawable/signup1" >
+
+    <!-- Back Arrow -->
+    <TextView
+        android:id="@+id/backArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="◀ Sign UP"
+        android:textColor="#FF5722"
+        android:textSize="18sp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Your Data"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Is about email , domain , Name  and another"
+        android:textColor="#BBBBBB"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Form Fields -->
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FF5722"
+        android:hint="Email"
+        android:textColorHint="#BBBBBB"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/usernameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FF5722"
+        android:hint="UserName"
+        android:textColorHint="#BBBBBB"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/nameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FF5722"
+        android:hint="Name"
+        android:textColorHint="#BBBBBB"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF" />
+
+    <!-- Password Field with Background Image -->
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:minHeight="48dp"
+    android:padding="12dp"
+    android:textColor="#FFFFFF"
+    android:textColorHint="#BBBBBB" />
+
+    <EditText
+        android:id="@+id/confirmPasswordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF5722"
+        android:hint="Confirm Password"
+        android:textColorHint="#BBBBBB"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF" />
+
+    <!-- Next Button -->
+    <EditText
+        android:id="@+id/mobileField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FF5722"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BBBBBB" />
+
+    <EditText
+        android:id="@+id/dobField"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Date of Birth"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF5722"
+        android:textColorHint="#BBBBBB"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FF5722"
+        android:text="Next"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

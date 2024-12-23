@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bworkout"
+        android:icon="@drawable/workout"
+        android:title="Workout" />
+    <item
+        android:id="@+id/bmealplan"
+        android:icon="@drawable/meatplan"
+        android:title="MealPlan" />
+    <item
+        android:id="@+id/bsleep"
+        android:icon="@drawable/sleep"
+        android:title="Sleep" />
+    <item
+        android:id="@+id/btarget"
+        android:icon="@drawable/target"
+        android:title="Target" />
+    <item
+        android:id="@+id/bachievement"
+        android:icon="@drawable/achivment"
+        android:title="Achievement" />
+</menu>
